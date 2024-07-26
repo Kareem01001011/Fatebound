@@ -467,51 +467,43 @@ def score_response(score):
     # (By the way, I don't mean it in an offensive way, of course. This is
     # all just for fun and laughs)
 
-    # If the score is bad, ridicule the players. If it's good, praise
-    # them. If it's in-between, return some passive-aggresive comments
-
     # Perfect score!
-    if score == 50:
-        # return f"{COLOR['GREEN']}{random.choice(zero)}{COLOR['ENDC']}"
-        return [f"{COLOR['GREEN']}Your score: {score}{COLOR['ENDC']}",
-                f"{COLOR['GREEN']}{random.choice(perfect)}{COLOR['ENDC']}"]
+    if score >= 50:
+        return (f"{COLOR['GREEN']}Your score: {score}{COLOR['ENDC']}"
+                + f"\n{COLOR['GREEN']}{random.choice(perfect)}{COLOR['ENDC']}")
 
     # Good
     elif score < 50 and score >= 25:
-        # return f"{COLOR['CYAN']}{random.choice(mid)}{COLOR['ENDC']}"
-        return [f"{COLOR['CYAN']}Your score: {score}{COLOR['ENDC']}",
-                f"{COLOR['CYAN']}{random.choice(good)}{COLOR['ENDC']}"]
+        return (f"{COLOR['CYAN']}Your score: {score}{COLOR['ENDC']}"
+                + f"\n{COLOR['CYAN']}{random.choice(good)}{COLOR['ENDC']}")
 
     # Meh...
     elif score < 25 and score > 0:
-        return [f"{COLOR['CYAN']}Your score: {score}{COLOR['ENDC']}",
-                f"{COLOR['CYAN']}{random.choice(mid)}{COLOR['ENDC']}"]
+        return (f"{COLOR['CYAN']}Your score: {score}{COLOR['ENDC']}"
+                + f"\n{COLOR['CYAN']}{random.choice(mid)}{COLOR['ENDC']}")
 
+    # Zero, bad
     elif score == 0:
-        # return f"{COLOR['REDB']}{random.choice(zero)}{COLOR['ENDC']}"
-        return [f"{COLOR['RED']}Your score: {score}{COLOR['ENDC']}",
-                f"{COLOR['RED']}{random.choice(zero)}{COLOR['ENDC']}"]
+        return (f"{COLOR['RED']}Your score: {score}{COLOR['ENDC']}"
+                + f"\n{COLOR['RED']}{random.choice(zero)}{COLOR['ENDC']}")
 
+    # How?
     elif score < 0:
-        return [f"{COLOR['REDB']}Your score: {score}{COLOR['ENDC']}",
-                f"{COLOR['REDB']}{random.choice(negative)}{COLOR['ENDC']}"]
+        return (f"{COLOR['REDB']}Your score: {score}{COLOR['ENDC']}"
+                + f"\n{COLOR['REDB']}{random.choice(negative)}{COLOR['ENDC']}")
 
 
 # Display a "you lose" message and show your score when you lose
 # Separated into its own function because I kept copying and pasting it
 def you_lose(score):
-    # score_details = score_response(score)
     typewrite(f"\n{COLOR['REDB']}You lose.{COLOR['ENDC']}")
-    typewrite(f"\n{score_response(score)[0]}")  # type: ignore
-    typewrite(f"{score_response(score)[1]}")  # type: ignore
+    typewrite(f"\n{score_response(score)}")  # type: ignore
 
 
 # Since I made a 'you lose' function, why not make a 'you win'?
 def you_win(score):
-    # score_details = score_response(score)
     typewrite(f"\n{COLOR['GB']}You win!{COLOR['ENDC']}")
-    typewrite(f"\n{score_response(score)[0]}")  # type: ignore
-    typewrite(f"{score_response(score)[1]}")  # type: ignore
+    typewrite(f"\n{score_response(score)}")  # type: ignore
 
 
 # Connects and uses every part of this spaghetti-like code...
@@ -526,7 +518,11 @@ def main():
     character = characters[character_id]
     character_description = fetch_text(character_id)
 
-    character2_id = random_character_id()
+    # I will not let Amon be the second opponent, I don't want to
+    # add another part where you'll die again.
+    # (Just pretend that Amon created a bug here and hidden
+    # himself for your sake, then go thank him...)
+    character2_id = random_character_id(hidden_characters=[0])
     character2 = characters[character2_id]
     character2_description = fetch_text(character2_id)
 
@@ -540,7 +536,7 @@ def main():
 
     # Introduction
 
-    typewrite((f"{fetch_text(10)} "
+    typewrite((f"\n{fetch_text(10)} "
                + f"{COLOR['REDB']}{fetch_text(11)}{COLOR['ENDC']}"))
 
     # Mid-game
@@ -587,9 +583,9 @@ def main():
 
         typewrite(f"\n\n{fetch_text(21)}")
 
-        typewrite(f"\n\n{COLOR['PURPLE']}...{COLOR['ENDC']}")
+        typewrite(f"\n{COLOR['PURPLE']}...{COLOR['ENDC']}")
 
-        typewrite(f"\n\n{COLOR['ITALIC']}{fetch_text(22)}{COLOR['ENDC']}")
+        typewrite(f"\n{COLOR['ITALIC']}{fetch_text(22)}{COLOR['ENDC']}")
         typewrite(f"\n\n{fetch_text(23)}")
 
         # Don't ask about this...
@@ -667,8 +663,8 @@ def main():
                 score += 10
 
                 typewrite(f"\n\n{fetch_text(41)}")
-                typewrite(f"{COLOR['GB']}+25 points!{COLOR['ENDC']}")
-                score += 25
+                typewrite(f"{COLOR['GB']}+20 points!{COLOR['ENDC']}")
+                score += 20
 
                 # Epilogue
 
