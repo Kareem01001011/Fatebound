@@ -1,0 +1,232 @@
+# -1
+DO NOT EDIT/MODIFY THIS FILE. ANY CHANGE MIGHT DESTROY THE GAME!
+(Yes, I also hate this code. I deeply apologize for having you read this spaghetti.)
+I had to separate the characters' descriptions from the python file since they were taking to much space 
+and it was extremely troublesome putting them there, especially with the 80-character-per-line rule 
+(I've had the displeasure of finding this out myself after a lot of fruitless trials...) 
+
+# 0 
+are greeted by a monocled figure with an unsettling smile.~
+
+His mischievous eyes twinkle with cunning as he adjusts the crystal monocle on his right eye. 
+You instantly recognize him as an Error, described by the ancient book as a being who can insert errors into everything, and exploits bugs in reality itself.~ He's the manifestation of all errors, the loophole in rules.~
+
+Furthermore, this person is the only one in which his name was directly stated in the book,| which was Amon.~
+
+Just laying eyes on him made your body tremble slightly for some reason, as if reacting to some deep trauma invoked by the monocled figure before you.
+
+# 1 
+a traveler with a worn notebook in one hand and a radiant, starry key in the other stands before you.~
+
+Clad in a patchwork of styles from different worlds and cultures, his eyes are filled with the knowledge of countless journeys.~
+Described by the ancient book as a Planeswalker from the Door pathway, he's known for exploring and wandering across planes and dimensions, scribing his thoughts in his notebook.~
+
+Despite his scholarly appearance, he is terrifyingly overpowered, capable of sending you across multiple universes if you're not careful.
+
+# 2 
+a tall, blond man with piercing blue eyes standing there.~
+
+Despite his attempts at disguise, you recognize him immediately as a character described in the ancient book.~
+His shabby cloak and poorly concealed burn spots on his shirt make it clear: he's a Pyromaniac from the Hunter Pathway, but not a very good one at that.
+
+# 3 
+are momentarily blinded by a figure bathed in radiant light.~
+
+A man stands there, eyes gleaming with fervor, his voice rich and warm as he exclaims, "Praise the Sun!"~
+You quickly recognize him as a fanatic from the Sun Pathway, described in the ancient book as people known for their unwavering love and endless praises for the brightest star in the daytime sky, and the ability to harness some of its power.
+
+# 4 
+notice that before you stands a figure whose eyes seem to glow with a strange light, as if they're piercing through the fabric of reality itself.~
+
+As he speak, his visions start to manifest around you, turning his words into reality. Described by the book as a Visionary, he possesses a dangerous ability: whatever they envision becomes real, making them a truly formidable adversary.~
+There are of course multiple restrictions to such an overpowered ability, but that doesn't make it any less fearsome.~
+His presence is unsettling, as if the very fabric of the world bends to his will.
+
+# 5 
+a handsome figure with piercing red eyes and an air of aristocratic pride stands before you.~
+
+His pale skin and the subtle scent of blood reveal his true nature. Described by the ancient book as a Vampire from the Moon Pathway, he exudes confidence and pride in his kin, and a bloodthirst that cannot be concealed.
+
+# 6 
+a bronze-skinned, blue-haired man with a fiery temper stands before you. His skin seems to shimmer with illusory scale-like structures.~
+
+This is a Folk of Rage of the Tyrant Pathway, mentioned in the ancient book as a formidable and irascible seafarer with huge strength and irritable nature.
+
+# 7 
+a sharply dressed man with an air of twisted authority greets you.~
+
+His eyes gleam with a dangerous intellect, and a tone can bend and distort reality with each word. Described by the ancient book as a Shadow of Order from the Black Emperor Pathway, this man is adept at manipulation and distortion.
+
+# 8 
+notice a towering figure, seemingly covered in the light of dawn, standing at your door.~
+
+His silver armor gleams with an otherworldly glow, and his presence is both intimidating and inspiring. 
+Described by the ancient book as a Silver Knight from the Twilight Pathway, he's a giant embodying strength and valor, ready to crush any opposition.
+
+# 9 
+notice a gray-eyed figure standing before you, his gaze distant and dreamy.| He seems almost ethereal, with an air of forgetfulness.~
+
+Described by the ancient book as a Nightmare from the Darkness Pathway, he's a man who doesn't need sleep and has a penchant for poetry, but his presence is unnerving and otherworldly.
+
+# 10
+
+You wake up in a dimly lit room with a sharp, twisting pain in your temples.| An ancient tome clutched in your hands, strange symbols glow on its cover, and you feel an odd power coursing through your veins.~
+
+The book seems strangely familiar to you.| Titled "Book of Wisdom," it's written in a language you've never seen before, but could somehow understand.| Furthermore, there's a sentence just beneath the title written in your own handwriting, which states:|
+
+# 11
+"Everyone will die, including me."~
+
+# 12
+"This book's weird...|| I think it's related to my bizarre state.| Why do I feel a bit stronger? Is this book behind it too? And what's this note about everyone dying? What can I do to prevent this? This is truly terrifying..."~
+
+# 13
+You keep hearing these illusory ravings, like stacked voices of people whispering in your ear, drilling through your brain. These murmurs seem almost like an illusion, but your pain certainly isn't.|
+You think to yourself that maybe reading that old mysterious book might fix your issue.~
+
+# 14
+The whispers grow unbearable.~
+Your psyche can't take these torturous, inextinguishable ravings anymore.| You can no longer maintain your sanity, and you lose control.~
+You transform into a strange, mythical creature, filled with vileness and madness.|
+
+Soon enough, you die a horrible, inexplicable death. Not as a human, a normal person, but as a monster, which makes it all the worse. 
+
+# 15
+You open the book to read it, and you immediately feel a strange, inexplicable power propagating within.~
+
+You notice that this book is written in an old, extinct language, different from the title page which you could strangely discern.|
+But since you're a historian, you can easily decipher it using one of the books littered across your desk.~
+
+You start reading. The words seem to come alive, revealing secrets more ancient than time.|
+The relatively small book was densely packed with knowledge, it almost felt like a tome.~
+
+After meticulously looking through the tome-like book, you finally understand the essence of the strange power you felt earlier.~
+
+
+You realize that there exist multiple different pathways and potions that give you a plethora of miraculous abilities that almost seem non-human; mystical items with powerful, terrifying properties; secretive, underground organizations; even wraiths, ghosts, and evil spirits exist, and much more knowledge that makes you dizzy from even thinking about them!
+
+You discover powerful pathways of abilities and strengths, with powers that vastly exceed your imaginations, such as 
+
+# 16
+Error, Fool, Door, Visionary
+
+# 17
+, and a few others.
+
+# 18
+"Wow, superpowers actually exist in this world... Cool!"|
+"So, which pathway did I get?"
+
+# 19
+After reading a bit more, you finally find out which Pathway you got. It was 
+
+# 20
+The Fool Pathway
+
+# 21
+Before you get discouraged from it's name and yeet the delicate book away, breaking it beyond repair, the Fool Pathway is one of the most powerful and versatile pathways.~
+
+You can create illusions, have strong danger intuition, use anything as a weapon (even paper. No, especially paper!), substitute yourself with a paper figurine to avoid lethal attacks, control people as marionettes, bring things (including yourself) from the past to the present, and even perform reality-altering miracles!|
+
+The Fool Pathway is more about strangeness, bizarreness, cunningness, and fooling perceptions and reality, not about being a fool yourself.|
+
+But unfortunately, you're still not yet familiar with your powers, so you won't be able to utilize all of them properly for the time being.
+
+# 22
+"This book seems so valuable, and contains a huge amount of secretive knowledge. Why is it here? Shouldn't the organization behind it be able to track me down and send someone to retrieve it?"|
+
+"Eh... that sounds too troublesome. I'll think about it after I go for a walk, I need some fresh air."
+
+# 23
+You get ready for your walk, but before you leave, you scramble in a bid to hide the book, just in case.|
+Finally, for some reason, you decide that the safest place for the book is in your coat, thinking nobody would notice...~
+
+
+Once you're done getting ready, you approach the apartment's door in order to leave for your walk. 
+
+# 24
+Unfortunately, you picked the wrong option... Amon was the fiercest opponent that could've possibly been sent here.|
+He even tried helping you by creating a bug in the game and hiding this option, but you still chose this option.~
+
+Needless to say, it didn't take long for your corpse to become unrecognizable.
+
+# 25
+  You: Hey man, how's it going?
+
+# 26
+: All great, thanks for asking!
+
+# 27
+  You: So, what brings you here today?
+
+# 28
+: I was sent here by the gas company to check your gas meter for reported issues.
+
+# 29
+  You: ...
+  You: I'm getting killed, aren't I?
+
+# 30
+: Indeed you are.
+
+# 31
+Before you have any time to show off one of your newly found powers, you are instantly decapitated by your opponent.
+
+# 32
+After a while, you somehow manage to temporarily escape his pursuit, so you go back to your apartment. 
+But you know it's still not over, so you have to prepare.
+
+After training for a while and familiarizing yourself more with your powers and reading more through that book, you've made a plan and you're now prepared for the next person that organization sends.
+
+# 33
+Days pass and you forget about it. But sure enough, a few days later, someone knocks on your door. 
+
+You look through the peephole and find someone familiar standing on your doorstep.
+He's not the same person as before, but he too was mentioned in the book, so you know a few things about him.
+
+# 34
+He's not the same person as before, but he too was mentioned in the book, so you know a few things about him.
+
+# 35
+He knows you're inside, so he gets angry and kicks down your door.
+
+# 36
+You: Man, can't you knock before you enter? Geez, these youngsters sure have no manners nowadays...
+
+# 37
+: ... 
+
+# 38
+You: ... Yeah I shouldn't have made that joke... Just go ahead and kill me, at this point I really deserve it.
+
+# 39
+: With pleasure.
+
+# 40
+Sure enough, he murders you with a smile on his face. He even used a bunch of non-lethal attacks first to make sure you've suffered in agony before he finishes you off. 
+Let's just say he did not fancy your middle-aged sense of humor very much...
+
+# 41
+Since you are able to create illusions and fool people's vision, you open the door, but make it seem like it's still closed. You quickly fetch a sheet of paper from your desk, and using your powers, the normal piece of paper in your hands is as sharp as a blade. 
+
+You slice your opponents' neck and leave them bleeding to death, bewildered as to what has befallen them.
+
+# 42
+You've finally familiarized yourself with your powers after _a lot_ of training. And since you're kinda broke, you've decided to utilize your powers as a Magician and a Miracle Invoker for good, and become a wandering magician (if that didn't work out, your second option was performing at a circus).|
+
+During your tours, you perform miracles and make peoples' dreams and wishes come true.|
+From making them see their deceased loved ones one more time, to fixing their disabilities that prevented them from living a normal, happy life, and watching their doubts and skepticism turn into utter confusion, then slowly beam into the most jubilant smile. A smile formed from the joy of an unexpected miracle.|
+
+# 43
+A bright, happy smile.~
+
+# 44
+You engage in a ferocious fight against your opponent. And after a lot of struggle, you finally emerge victorious.
+But unfortunately, you've been severely injured. Thankfully, due to your current strength and constitution, it's not as fatal, but it'll still take a while to recover.
+
+# 45
+However, after a few days, you find someone knocking on your door.
+You go to check who's there. But since you're a bit slow due to your injuries, he impatiently breaks the door and enters.
+You notice that he was mentioned in the book before as a formidable opponent, and since you're currently injured and can't fend for yourself, you give up and accept your cruel fate.
+
+He finds your perilous situation quite pitiful, so he decides to end your life quickly so you don't suffer as much.
